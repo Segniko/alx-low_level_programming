@@ -1,10 +1,8 @@
 #include "main.h"
-
-/** 
- * _puts - prints a sring, followed by a new line, to stdout 
- * @str: string to the point
+/**
+ * _puts - prints a string, followed by a new line, to stdout
+ * @str: string to print
  */
-
 void _puts(char *str)
 {
 	while (*str != '\0')
@@ -13,4 +11,3 @@ void _puts(char *str)
 	}
 		_putchar('\n');
 }
-
